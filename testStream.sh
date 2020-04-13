@@ -1,7 +1,7 @@
-gst-launch-1.0 appsrc emit-signals=True is-live=True \
+gst-launch-1.0 videotestsrc \
     ! video/x-raw,width=480,height=640 \
-    ! videoconvert \
-    ! avenc_flv \
+    ! omxh264enc \
+    ! h264parse \
     ! flvmux \
     ! rtmpsink location='rtmp://localhost/thermal live=1'
 
