@@ -8,7 +8,7 @@ import statistics
 FRAME_SIZE = 768
 FRAME_HEIGHT = 24
 FRAME_WIDTH = 32
-
+TEMPERATURE_THRESHOLD = 34
 
 
 I2C = busio.I2C(board.SCL, board.SDA, frequency=400000)
@@ -28,25 +28,25 @@ FIREBASE_API_KEY="""AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz
                     B1dE9DSzXx59fQSZWzG_o9m"""
 
 class heatWatch:
-    lastNotified=0
 
-    def __init__(self, threshold=38, interval=60):
-        lastNotified = time.time()
-        self.NOTIFICATION_INTERVAL=interval
-        self.TEMPERATURE_THRESHOLD=threshold
+    def __init__(self):
+        self.lastNotified = 0
+        self.NOTIFICATION_INTERVAL= 60
+        #self.TEMPERATURE_THRESHOLD=threshold
 
-    #def heatAlert(self, celsius):
-        #if (time.time()- self.lastNotified > self.NOTIFICATION_INTERVAL):
+    def heatAlert(self, celsius):
+        print("Last notified at: %0.4f\n" % self.lastNotified)
+
+        if(self.lastNotified == 0): #first time sending the notification
+            print("Anomaly detected: %0.2f\n" % celsius)
+            self.lastNotified = time.time()
+        if(time.time() - self.lastNotified > self.NOTIFICATION_INTERVAL):
             #if (celsius>=self.TEMPERATURE_THRESHOLD):
                 #HTTP POST REQUEST GOES HERE
-            
-        
-    
-
-
+            print("Anomaly detected: %0.2f\n" % celsius)
+            self.lastNotified = time.time()
 
 alertObject = heatWatch()
-
 
 while True:
     try:
@@ -54,17 +54,16 @@ while True:
     except ValueError:
         continue
     
-    
-    
     highTemp=max(cameraFrame)
     lowTemp=min(cameraFrame)
     ambientTemp=int(statistics.median(cameraFrame))
     
-    print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}\n".format(max(cameraFrame), min(cameraFrame)))
-    
+    print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}".format(max(cameraFrame), min(cameraFrame)))
     print("Ambient(median) temperature: " + str(ambientTemp))
-    ambientTempUpdate = requests.get(url=SERVER_URL, params= str(int(ambientTemp)))
-    
-    
+
+   #ambientTempUpdate = requests.get(url=SERVER_URL, params= str(int(ambientTemp)))
+
+    if(highTemp >= TEMPERATURE_THRESHOLD):
+        alertObject.heatAlert(highTemp)
     
     time.sleep(5)
