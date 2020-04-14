@@ -19,7 +19,13 @@ thermalCamera.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_0_5_HZ
 
 cameraFrame = [0] * FRAME_SIZE
 
-SERVER_URL=" http://localhost"
+DEVICE_ID = "7"
+SERVER_URL="http://localhost"
+FIREBASE_URL="http://localhost"
+FIREBASE_API_KEY="""AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz
+                    _TTb6s9-MuPjxj9QYwEaBY6BhfxnNVNJCYtE_pngp1b
+                    PsOUvQMICdK5LKwcXKcoPT-QAKXK9otinw4t13Q0FyE
+                    B1dE9DSzXx59fQSZWzG_o9m"""
 
 class heatWatch:
     lastNotified=0
@@ -29,10 +35,10 @@ class heatWatch:
         self.NOTIFICATION_INTERVAL=interval
         self.TEMPERATURE_THRESHOLD=threshold
 
-#    def heatAlert(self, celsius):
-#        if (time.time()- self.lastNotified > self.NOTIFICATION_INTERVAL):
-#            if (celsius>=self.TEMPERATURE_THRESHOLD):
-                #HTTP POST request goes here
+    #def heatAlert(self, celsius):
+        #if (time.time()- self.lastNotified > self.NOTIFICATION_INTERVAL):
+            #if (celsius>=self.TEMPERATURE_THRESHOLD):
+                #HTTP POST REQUEST GOES HERE
             
         
     
@@ -56,7 +62,7 @@ while True:
     
     print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}\n".format(max(cameraFrame), min(cameraFrame)))
     
-    print("Ambient\(median\) temperature: " + str(ambientTemp))
+    print("Ambient(median) temperature: " + str(ambientTemp))
     ambientTempUpdate = requests.get(url=SERVER_URL, params= str(int(ambientTemp)))
     
     
