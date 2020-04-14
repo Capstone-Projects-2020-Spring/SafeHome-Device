@@ -4,6 +4,7 @@ import busio
 import adafruit_mlx90640
 import requests
 import statistics
+import json
 
 FRAME_SIZE = 768
 FRAME_HEIGHT = 24
@@ -19,13 +20,11 @@ thermalCamera.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_0_5_HZ
 
 cameraFrame = [0] * FRAME_SIZE
 
-DEVICE_ID = "7"
+DEVICE_ID = "/topics/6"
 SERVER_URL="http://localhost"
-FIREBASE_URL="http://localhost"
-FIREBASE_API_KEY="""AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz
-                    _TTb6s9-MuPjxj9QYwEaBY6BhfxnNVNJCYtE_pngp1b
-                    PsOUvQMICdK5LKwcXKcoPT-QAKXK9otinw4t13Q0FyE
-                    B1dE9DSzXx59fQSZWzG_o9m"""
+FIREBASE_URL="https://fcm.googleapis.com/fcm/send"
+FIREBASE_API_KEY='AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz_TTb6s9-MuPjxj9QYwEaBY6BhfxnNVNJCYtE_pngp1bPsOUvQMICdK5LKwcXKcoPT-QAKXK9otinw4t13Q0FyEB1dE9DSzXx59fQSZWzG_o9m'
+header = {'Content-Type': 'application/json', 'Authorization': 'key=' + FIREBASE_API_KEY}
 
 class heatWatch:
 
@@ -39,12 +38,18 @@ class heatWatch:
 
         if(self.lastNotified == 0): #first time sending the notification
             print("Anomaly detected: %0.2f\n" % celsius)
+            self.sendNotification(celsius)
             self.lastNotified = time.time()
         if(time.time() - self.lastNotified > self.NOTIFICATION_INTERVAL):
-            #if (celsius>=self.TEMPERATURE_THRESHOLD):
-                #HTTP POST REQUEST GOES HERE
             print("Anomaly detected: %0.2f\n" % celsius)
+            self.sendNotification(celsius)
             self.lastNotified = time.time()
+
+    def sendNotification(self, celsius):
+        fahrenheit = (celsius * 9/5) + 32 
+        data = {'to': DEVICE_ID, 'notification': {'title': 'Temperature Anomaly', 'body': 'Temperature anamaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
+        r = requests.post(FIREBASE_URL, headers=header, data=json.dumps(data))
+        print(r.content)
 
 alertObject = heatWatch()
 
