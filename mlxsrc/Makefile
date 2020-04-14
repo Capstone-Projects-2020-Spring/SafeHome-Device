@@ -9,7 +9,7 @@ HEADER	=
 OUT	= rawrgb
 CC	 = g++
 FLAGS	 = -g -c -Wall
-LFLAGS	 = -lpthread -bcm2835 -MLX90640
+LFLAGS	 = -lpthread -lbcm2835 -lMLX90640 -lcurl
 # -g option enables debugging mode 
 # -c flag generates object code for separate files
 
