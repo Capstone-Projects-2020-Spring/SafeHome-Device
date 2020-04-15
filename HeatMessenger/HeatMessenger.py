@@ -5,6 +5,7 @@ import adafruit_mlx90640
 import requests
 import statistics
 import json
+import sys
 
 FRAME_SIZE = 768
 FRAME_HEIGHT = 24
@@ -20,9 +21,9 @@ thermalCamera.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_0_5_HZ
 
 cameraFrame = [0] * FRAME_SIZE
 
-DEVICE_ID = "/topics/6"
-SERVER_URL="http://localhost"
-FIREBASE_URL="https://fcm.googleapis.com/fcm/send"
+DEVICE_ID = "6"
+SERVER_URL="http://198.211.109.9:8000/SafeHomeDatabase/setTemp/"
+FIREBASE_URL="https://fcm.googleapis.com/fcm/send/topics/"
 FIREBASE_API_KEY='AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz_TTb6s9-MuPjxj9QYwEaBY6BhfxnNVNJCYtE_pngp1bPsOUvQMICdK5LKwcXKcoPT-QAKXK9otinw4t13Q0FyEB1dE9DSzXx59fQSZWzG_o9m'
 header = {'Content-Type': 'application/json', 'Authorization': 'key=' + FIREBASE_API_KEY}
 
@@ -47,11 +48,20 @@ class heatWatch:
 
     def sendNotification(self, celsius):
         fahrenheit = (celsius * 9/5) + 32 
-        data = {'to': DEVICE_ID, 'notification': {'title': 'Temperature Anomaly', 'body': 'Temperature anamaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
+        data = {'to': '/topics/' + DEVICE_ID, 'notification': {'title': 'Temperature Anomaly', 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
         r = requests.post(FIREBASE_URL, headers=header, data=json.dumps(data))
         print(r.content)
 
 alertObject = heatWatch()
+
+#Device ID will be pulled in as first parameter, Program will exit if not supplied
+if len(sys.argv)>1:
+    DEVICE_ID=sys.argv[1]
+else:
+    print ("Please provide Device ID as first parameter")
+    sys.exit()
+
+prevTemp=0;
 
 while True:
     try:
@@ -63,11 +73,17 @@ while True:
     lowTemp=min(cameraFrame)
     ambientTemp=int(statistics.median(cameraFrame))
     
-    print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}".format(max(cameraFrame), min(cameraFrame)))
-    print("Ambient(median) temperature: " + str(ambientTemp))
-
-   #ambientTempUpdate = requests.get(url=SERVER_URL, params= str(int(ambientTemp)))
-
+    #print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}".format(max(cameraFrame), min(cameraFrame)))
+    #print("Ambient(median) temperature: " + str(ambientTemp))
+    
+    
+    #Checks if the room median temperature has changed
+    #sends an update to the server if so
+    if ambientTemp!=prevTemp:
+        ambientTempUpdate = requests.get(SERVER_URL, params= {"id":DEVICE_ID,"temp":str(int(ambientTemp))})
+        prevTemp=ambientTemp
+        print(ambientTempUpdate.url)
+        print("Status Code: " + str(ambientTempUpdate.status_code))
     if(highTemp >= TEMPERATURE_THRESHOLD):
         alertObject.heatAlert(highTemp)
     
