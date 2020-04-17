@@ -48,7 +48,7 @@ class heatWatch:
 
     def sendNotification(self, celsius):
         fahrenheit = (celsius * 9/5) + 32 
-        data = {'to':'/topics/' + DEVICE_ID, 'notification': {'title': 'Temperature Anomaly', 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
+        data = {'to':'/topics/' + DEVICE_ID, 'notification': {'title': 'Alert at Device: ' + DEVICE_ID, 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
         r = requests.post(FIREBASE_URL, headers=header, data=json.dumps(data))
         print ("Sent notification to URL: ",r.url)
         print ("\n\n",r.content)
