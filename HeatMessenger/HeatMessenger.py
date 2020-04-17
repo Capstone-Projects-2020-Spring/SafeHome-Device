@@ -10,7 +10,7 @@ import sys
 FRAME_SIZE = 768
 FRAME_HEIGHT = 24
 FRAME_WIDTH = 32
-TEMPERATURE_THRESHOLD = 34
+TEMPERATURE_THRESHOLD = 37
 
 
 I2C = busio.I2C(board.SCL, board.SDA, frequency=400000)
@@ -23,7 +23,7 @@ cameraFrame = [0] * FRAME_SIZE
 
 DEVICE_ID = "6"
 SERVER_URL="http://198.211.109.9:8000/SafeHomeDatabase/setTemp/"
-FIREBASE_URL="https://fcm.googleapis.com/fcm/send/topics/"
+FIREBASE_URL="https://fcm.googleapis.com/fcm/send"
 FIREBASE_API_KEY='AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz_TTb6s9-MuPjxj9QYwEaBY6BhfxnNVNJCYtE_pngp1bPsOUvQMICdK5LKwcXKcoPT-QAKXK9otinw4t13Q0FyEB1dE9DSzXx59fQSZWzG_o9m'
 header = {'Content-Type': 'application/json', 'Authorization': 'key=' + FIREBASE_API_KEY}
 
@@ -48,9 +48,10 @@ class heatWatch:
 
     def sendNotification(self, celsius):
         fahrenheit = (celsius * 9/5) + 32 
-        data = {'to': '/topics/' + DEVICE_ID, 'notification': {'title': 'Temperature Anomaly', 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
+        data = {'to':'/topics/' + DEVICE_ID, 'notification': {'title': 'Temperature Anomaly', 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
         r = requests.post(FIREBASE_URL, headers=header, data=json.dumps(data))
-        print(r.content)
+        print ("Sent notification to URL: ",r.url)
+        print ("\n\n",r.content)
 
 alertObject = heatWatch()
 
