@@ -10,7 +10,7 @@ import sys
 FRAME_SIZE = 768
 FRAME_HEIGHT = 24
 FRAME_WIDTH = 32
-TEMPERATURE_THRESHOLD = 32
+TEMPERATURE_THRESHOLD = 37
 
 
 I2C = busio.I2C(board.SCL, board.SDA, frequency=400000)
@@ -85,10 +85,6 @@ while True:
     lowTemp=min(cameraFrame)
     ambientTemp=int(statistics.median(cameraFrame))
     
-    highTempF = (highTemp * 9/5) + 32 
-    lowTempF =  (lowTemp * 9/5) + 32
-    ambientTempF =(ambientTemp * 9/5) + 32 
-    
     #print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}".format(max(cameraFrame), min(cameraFrame)))
     #print("Ambient(median) temperature: " + str(ambientTemp))
     
@@ -96,7 +92,7 @@ while True:
     #Checks if the room median temperature has changed
     #sends an update to the server if so
     if ambientTemp!=prevTemp:
-        ambientTempUpdate = requests.get(SERVER_URL, params= {"id":DEVICE_ID,"temp":'{0:.1f}'.format(ambientTempF)})
+        ambientTempUpdate = requests.get(SERVER_URL, params= {"id":DEVICE_ID,"temp":str(int(ambientTemp))})
         prevTemp=ambientTemp
         print(ambientTempUpdate.url)
         print("Status Code: " + str(ambientTempUpdate.status_code))
