@@ -10,7 +10,7 @@ import sys
 FRAME_SIZE = 768
 FRAME_HEIGHT = 24
 FRAME_WIDTH = 32
-TEMPERATURE_THRESHOLD = 37
+TEMPERATURE_THRESHOLD = 32
 
 
 I2C = busio.I2C(board.SCL, board.SDA, frequency=400000)
@@ -21,7 +21,8 @@ thermalCamera.refresh_rate = adafruit_mlx90640.RefreshRate.REFRESH_0_5_HZ
 
 cameraFrame = [0] * FRAME_SIZE
 
-DEVICE_ID = "6"
+DEVICE_ID = " "
+DEVICE_NAME = " "
 SERVER_URL="http://198.211.109.9:8000/SafeHomeDatabase/setTemp/"
 FIREBASE_URL="https://fcm.googleapis.com/fcm/send"
 FIREBASE_API_KEY='AAAAEDDiUSU:APA91bFqIUEReFZhmk4SsGkIpIvh9Bz_TTb6s9-MuPjxj9QYwEaBY6BhfxnNVNJCYtE_pngp1bPsOUvQMICdK5LKwcXKcoPT-QAKXK9otinw4t13Q0FyEB1dE9DSzXx59fQSZWzG_o9m'
@@ -48,7 +49,7 @@ class heatWatch:
 
     def sendNotification(self, celsius):
         fahrenheit = (celsius * 9/5) + 32 
-        data = {'to':'/topics/' + DEVICE_ID, 'notification': {'title': 'Alert at Device: ' + DEVICE_ID, 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
+        data = {'to':'/topics/' + DEVICE_ID, 'notification': {'title': 'Alert at Device: ' + DEVICE_NAME, 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
         r = requests.post(FIREBASE_URL, headers=header, data=json.dumps(data))
         print ("Sent notification to URL: ",r.url)
         print ("\n\n",r.content)
@@ -62,7 +63,17 @@ else:
     print ("Please provide Device ID as first parameter")
     sys.exit()
 
-prevTemp=0;
+prevTemp=0
+
+
+r1 = requests.get("http://198.211.109.9:8000/SafeHomeDatabase/getDevices/", params= {"email": "admin"})
+r1_string = r1.content.decode("utf-8").split(',')
+
+for devices in r1_string:
+        device = devices.split('-')
+        if(device[0] == DEVICE_ID):
+                DEVICE_NAME = device[1]
+                break
 
 while True:
     try:
