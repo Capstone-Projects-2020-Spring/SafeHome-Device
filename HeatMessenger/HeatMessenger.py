@@ -65,7 +65,7 @@ else:
 
 prevTemp=0
 
-
+#get device name that matches the device_id
 r1 = requests.get("http://198.211.109.9:8000/SafeHomeDatabase/getDevices/", params= {"email": "admin"})
 r1_string = r1.content.decode("utf-8").split(',')
 
