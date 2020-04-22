@@ -12,7 +12,9 @@ FRAME_HEIGHT = 24
 FRAME_WIDTH = 32
 
 #temp threshold now in fahrenheit
-TEMPERATURE_THRESHOLD = 95
+UPPER_TEMPERATURE_THRESHOLD = 95
+LOWER_TEMPERATURE_THRESHOLD = 40
+VARIANCE_CHANGE_THRESHOLD = 0.5
 
 
 I2C = busio.I2C(board.SCL, board.SDA, frequency=400000)
@@ -35,7 +37,7 @@ class heatWatch:
     def __init__(self):
         self.lastNotified = 0
         self.NOTIFICATION_INTERVAL= 60
-        #self.TEMPERATURE_THRESHOLD=threshold
+        #self.UPPER_TEMPERATURE_THRESHOLD=threshold
 
     def heatAlert(self, fahrenheit):
         print("Last notified at: %0.4f\n" % self.lastNotified)
@@ -85,6 +87,7 @@ else:
     sys.exit()
 
 prevTemp=0
+prevVar=0
 
 #get device name that matches the device_id
 r1 = requests.get("http://198.211.109.9:8000/SafeHomeDatabase/getDevices/", params= {"email": "admin"})
@@ -101,10 +104,18 @@ while True:
         thermalCamera.getFrame(cameraFrame)
     except ValueError:
         continue
-    
     highTemp=CtoF(int(max(cameraFrame)))
     lowTemp=CtoF(int(min(cameraFrame)))
     ambientTemp=CtoF(int(statistics.median(cameraFrame)))
+    tempVariance=statistics.variance(cameraFrame)
+    
+    
+    if ((prevTemp==0)or(tempVariance==0)):
+        prevTemp=ambientTemp
+        prevVar=tempVariance
+        
+    
+    print("Variance: {0:0.3f}".format(tempVariance))
     
     #this line controls what order temps are reported in
     tempReport=[highTemp,ambientTemp,lowTemp]
@@ -115,12 +126,16 @@ while True:
     
     #Checks if the room median temperature has changed
     #sends an update to the server if so
+    if (abs(tempVariance-prevVar)>=VARIANCE_CHANGE_THRESHOLD):
+        print("Variance has changed notably, by {0:02f}".format(tempVariance-prevVar))
     if ambientTemp!=prevTemp:
         ambientTempUpdate = requests.get(SERVER_URL, params= {"id":DEVICE_ID,"temp":tempReportBuilder(tempReport)})
         prevTemp=ambientTemp
         print(ambientTempUpdate.url)
         print("Status Code: " + str(ambientTempUpdate.status_code))
-    if(highTemp >= TEMPERATURE_THRESHOLD):
+    if(highTemp >= UPPER_TEMPERATURE_THRESHOLD):
         alertObject.heatAlert(highTemp)
+    if (lowTemp<= LOWER_TEMPERATURE_THRESHOLD):
+        alertObject.heatAlert(lowTemp)
     
     time.sleep(5)
