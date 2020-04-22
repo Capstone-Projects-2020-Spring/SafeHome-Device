@@ -90,14 +90,14 @@ prevTemp=0
 prevVar=0
 
 #get device name that matches the device_id
-r1 = requests.get("http://198.211.109.9:8000/SafeHomeDatabase/getDevices/", params= {"email": "admin"})
+r1 = requests.get("http://198.211.109.9:8000/SafeHomeDatabase/getDevices/", params= {"email": "admin1"})
 r1_string = r1.content.decode("utf-8").split(',')
 
 for devices in r1_string:
-        device = devices.split('-')
-        if(device[0] == DEVICE_ID):
-                DEVICE_NAME = device[1]
-                break
+    device = devices.split('-')
+    if(device[0].strip() == DEVICE_ID):
+            DEVICE_NAME = device[1]
+            break
 
 while True:
     try:
@@ -116,6 +116,7 @@ while True:
         
     
     print("Variance: {0:0.3f}".format(tempVariance))
+    print(DEVICE_NAME)
     
     #this line controls what order temps are reported in
     tempReport=[highTemp,ambientTemp,lowTemp]
