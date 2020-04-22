@@ -13,7 +13,7 @@ FRAME_WIDTH = 32
 
 #temp threshold now in fahrenheit
 UPPER_TEMPERATURE_THRESHOLD = 95
-LOWER_TEMPERATURE_THRESHOLD = 40
+LOWER_TEMPERATURE_THRESHOLD = 60
 VARIANCE_CHANGE_THRESHOLD = 0.5
 
 
@@ -113,13 +113,14 @@ while True:
     if ((prevTemp==0)or(tempVariance==0)):
         prevTemp=ambientTemp
         prevVar=tempVariance
+        prevTempReport=""
         
     
     print("Variance: {0:0.3f}".format(tempVariance))
     print(DEVICE_NAME)
     
     #this line controls what order temps are reported in
-    tempReport=[highTemp,ambientTemp,lowTemp]
+    tempReport=tempReportBuilder([highTemp,ambientTemp,lowTemp])
     
     #print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}".format(max(cameraFrame), min(cameraFrame)))
     #print("Ambient(median) temperature: " + str(ambientTemp))
@@ -129,11 +130,12 @@ while True:
     #sends an update to the server if so
     if (abs(tempVariance-prevVar)>=VARIANCE_CHANGE_THRESHOLD):
         print("Variance has changed notably, by {0:02f}".format(tempVariance-prevVar))
-    if ambientTemp!=prevTemp:
-        ambientTempUpdate = requests.get(SERVER_URL, params= {"id":DEVICE_ID,"temp":tempReportBuilder(tempReport)})
-        prevTemp=ambientTemp
-        print(ambientTempUpdate.url)
-        print("Status Code: " + str(ambientTempUpdate.status_code))
+        prevVar=tempVariance
+    if tempReport!=prevTempReport:
+        tempUpdate = requests.get(SERVER_URL, params= {"id":DEVICE_ID,"temp":tempReport})
+        prevTempReport=tempReport
+        print(tempUpdate.url)
+        print("Status Code: " + str(tempUpdate.status_code))
     if(highTemp >= UPPER_TEMPERATURE_THRESHOLD):
         alertObject.heatAlert(highTemp)
     if (lowTemp<= LOWER_TEMPERATURE_THRESHOLD):
