@@ -1,8 +1,9 @@
 #!/bin/bash
-
+python3 /home/pi/SafeHome-Device/HeatMessenger/HeatMessenger.py 7 > /home/pi/SafeHome-Device/messengerLog.txt&
 gst-launch-1.0 rpicamsrc bitrate=250000 rotation=270  annotation-mode=date+time\
  ! video/x-h264,width=480,height=640,framerate=30/1,profile=high\
- ! h264parse !  flvmux ! rtmpsink location='rtmp://localhost/live live=1'
+ ! h264parse !  flvmux ! rtmpsink location='rtmp://localhost/live live=1'&
+
 #| gst-launch-1.0 rpicamsrc bitrate=250000 rotation=0 annotation-mode=date+time\
 # ! video/x-h264,width=480,height=640,framerate=30/1\
 # ! h264parse ! flvmux ! rtmpsink location='rtmp://localhost/low live=1'\

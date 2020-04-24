@@ -15,6 +15,7 @@ FRAME_WIDTH = 32
 UPPER_TEMPERATURE_THRESHOLD = 85
 LOWER_TEMPERATURE_THRESHOLD = 45
 VARIANCE_CHANGE_THRESHOLD = 0.5
+NOTIFICATION_INTERVAL= 60
 
 
 I2C = busio.I2C(board.SCL, board.SDA, frequency=400000)
@@ -36,23 +37,22 @@ class heatWatch:
 
     def __init__(self):
         self.lastNotified = 0
-        self.NOTIFICATION_INTERVAL= 60
-        #self.UPPER_TEMPERATURE_THRESHOLD=threshold
 
     def heatAlert(self, fahrenheit):
-        print("Last notified at: %0.4f\n" % self.lastNotified)
 
         if(self.lastNotified == 0): #first time sending the notification
-            print("Anomaly detected: %0.2f\n" % fahrenheit)
             self.sendNotification(fahrenheit)
             self.lastNotified = time.time()
-        if(time.time() - self.lastNotified > self.NOTIFICATION_INTERVAL):
-            print("Anomaly detected: %0.2f\n" % fahrenheit)
+        elif(time.time() - self.lastNotified > NOTIFICATION_INTERVAL):
+            
             self.sendNotification(fahrenheit)
             self.lastNotified = time.time()
+        else:
+            return
+            
+        print(("Anomaly of %0.2f detected at " % fahrenheit)+time.strftime("%X, %x",time.localtime(self.lastNotified)))
 
     def sendNotification(self, fahrenheit):
-        # 
         data = {'to':'/topics/' + DEVICE_ID, 'notification': {'title': 'Alert at Device: ' + DEVICE_NAME, 'body': 'Temperature anomaly detected: {0:.1f}'.format(fahrenheit) + '°F'}, 'priority': 'high'}
         r = requests.post(FIREBASE_URL, headers=header, data=json.dumps(data))
         print ("Sent notification to URL: ",r.url)
@@ -121,10 +121,6 @@ while True:
     
     #this line controls what order temps are reported in
     tempReport=tempReportBuilder([highTemp,ambientTemp,lowTemp])
-    
-    #print("Max Temp Celsius: {0:0.2f} \nMin Temp Celsius: {1:0.2f}".format(max(cameraFrame), min(cameraFrame)))
-    #print("Ambient(median) temperature: " + str(ambientTemp))
-    
     
     #Checks if the room median temperature has changed
     #sends an update to the server if so
