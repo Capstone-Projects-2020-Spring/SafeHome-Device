@@ -1,1 +1,3046 @@
-Some Bullshit
+Variance: 0.386
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.383
+John
+78.8,73.4,69.8
+Variance: 0.384
+John
+78.8,73.4,69.8
+Variance: 0.392
+John
+78.8,73.4,69.8
+Variance: 0.383
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.383
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.381
+John
+78.8,73.4,69.8
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.382
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.385
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.375
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.380
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.763
+John
+82.4,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=82.4%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.958
+John
+82.4,73.4,69.8
+Variance has changed notably, by 0.572013
+Variance: 0.957
+John
+82.4,73.4,69.8
+Variance: 0.560
+John
+82.4,73.4,69.8
+Variance: 0.387
+John
+77.0,73.4,69.8
+Variance has changed notably, by -0.570373
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.378
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.362
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.352
+John
+78.8,73.4,69.8
+Variance: 0.349
+John
+78.8,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.403
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.381
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.344
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.357
+John
+78.8,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.364
+John
+78.8,73.4,69.8
+Variance: 0.359
+John
+78.8,73.4,69.8
+Variance: 0.396
+John
+78.8,73.4,69.8
+Variance: 0.393
+John
+78.8,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.401
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.373
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.359
+John
+77.0,73.4,69.8
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.358
+John
+77.0,73.4,69.8
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.371
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.371
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+78.8,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.358
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+78.8,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.371
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.379
+John
+77.0,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.380
+John
+77.0,73.4,69.8
+Variance: 0.381
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.380
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.379
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.382
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.369
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.379
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.373
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.383
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.379
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.420
+John
+78.8,73.4,69.8
+Variance: 0.462
+John
+78.8,73.4,69.8
+Variance: 0.669
+John
+78.8,73.4,69.8
+Variance: 0.386
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.388
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.380
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.389
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.368
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.359
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.354
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.353
+John
+78.8,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.344
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.337
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.336
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.344
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.342
+John
+78.8,73.4,69.8
+Variance: 0.346
+John
+78.8,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.336
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.336
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.342
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.335
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.334
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.335
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.336
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.343
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.347
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+77.0,73.4,69.8
+Variance: 0.334
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.378
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 2.441
+John
+89.6,75.2,71.6
+Variance has changed notably, by 2.053935
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=89.6%2C75.2%2C71.6
+Status Code: 200
+Sent notification to URL:  https://fcm.googleapis.com/fcm/send
+
+
+ b'{"message_id":2525289685698645337}'
+Anomaly of 89.60 detected at 20:35:42, 04/26/20
+Variance: 3.447
+John
+87.8,75.2,71.6
+Variance has changed notably, by 1.005656
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=87.8%2C75.2%2C71.6
+Status Code: 200
+Variance: 3.498
+John
+87.8,75.2,71.6
+Variance: 1.742
+John
+84.2,75.2,69.8
+Variance has changed notably, by -1.705094
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=84.2%2C75.2%2C69.8
+Status Code: 200
+Variance: 1.765
+John
+84.2,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=84.2%2C73.4%2C69.8
+Status Code: 200
+Variance: 1.239
+John
+82.4,73.4,69.8
+Variance has changed notably, by -0.502799
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=82.4%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.412
+John
+78.8,73.4,69.8
+Variance has changed notably, by -0.827245
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.342
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.334
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 2.059
+John
+86.0,75.2,69.8
+Variance has changed notably, by 1.647308
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=86.0%2C75.2%2C69.8
+Status Code: 200
+Sent notification to URL:  https://fcm.googleapis.com/fcm/send
+
+
+ b'{"message_id":2291952295181901918}'
+Anomaly of 86.00 detected at 20:38:09, 04/26/20
+Variance: 3.367
+John
+87.8,75.2,71.6
+Variance has changed notably, by 1.307530
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=87.8%2C75.2%2C71.6
+Status Code: 200
+Variance: 0.906
+John
+80.6,73.4,69.8
+Variance has changed notably, by -2.460167
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=80.6%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance has changed notably, by -0.556832
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.339
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.356
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.347
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.345
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.585
+John
+80.6,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=80.6%2C73.4%2C69.8
+Status Code: 200
+Variance: 1.497
+John
+84.2,73.4,69.8
+Variance has changed notably, by 1.147693
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=84.2%2C73.4%2C69.8
+Status Code: 200
+Variance: 1.076
+John
+84.2,73.4,69.8
+Variance: 1.108
+John
+84.2,73.4,69.8
+Variance: 1.010
+John
+84.2,73.4,69.8
+Variance: 1.081
+John
+84.2,73.4,69.8
+Variance: 1.059
+John
+84.2,73.4,69.8
+Variance: 0.830
+John
+80.6,73.4,69.8
+Variance has changed notably, by -0.667004
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=80.6%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.450
+John
+80.6,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.334
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.338
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.342
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.348
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.343
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.354
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.358
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.350
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.346
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.348
+John
+77.0,73.4,69.8
+Variance: 0.352
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.351
+John
+77.0,73.4,69.8
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.917
+John
+84.2,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=84.2%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.353
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.349
+John
+77.0,73.4,69.8
+Variance: 0.353
+John
+77.0,73.4,69.8
+Variance: 0.343
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.341
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.337
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.340
+John
+77.0,73.4,69.8
+Variance: 0.344
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.350
+John
+77.0,73.4,69.8
+Variance: 0.355
+John
+77.0,73.4,69.8
+Variance: 0.347
+John
+77.0,73.4,69.8
+Variance: 0.345
+John
+77.0,73.4,69.8
+Variance: 0.418
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.381
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.371
+John
+78.8,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.379
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.377
+John
+78.8,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.387
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.384
+John
+78.8,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+Variance: 0.375
+John
+78.8,73.4,69.8
+Variance: 0.375
+John
+78.8,73.4,69.8
+Variance: 0.371
+John
+78.8,73.4,69.8
+Variance: 0.482
+John
+80.6,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=80.6%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.360
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.416
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.367
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.365
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.380
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.365
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.365
+John
+77.0,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.381
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.377
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.379
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.370
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.382
+John
+77.0,73.4,69.8
+Variance: 0.376
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.379
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.376
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.371
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.368
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.378
+John
+77.0,73.4,69.8
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.381
+John
+77.0,73.4,69.8
+Variance: 0.373
+John
+77.0,73.4,69.8
+Variance: 0.380
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.376
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.372
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.381
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.374
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+77.0,73.4,69.8
+Variance: 0.588
+John
+82.4,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=82.4%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.379
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.376
+John
+78.8,73.4,69.8
+Variance: 0.378
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.375
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+77.0,73.4,69.8
+Variance: 0.362
+John
+77.0,73.4,69.8
+Variance: 0.377
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.367
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.368
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.371
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+77.0,73.4,69.8
+Variance: 0.378
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.366
+John
+77.0,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=77.0%2C73.4%2C69.8
+Status Code: 200
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.369
+John
+77.0,73.4,69.8
+Variance: 0.357
+John
+77.0,73.4,69.8
+Variance: 0.364
+John
+77.0,73.4,69.8
+Variance: 0.361
+John
+77.0,73.4,69.8
+Variance: 0.363
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.360
+John
+77.0,73.4,69.8
+Variance: 0.366
+John
+77.0,73.4,69.8
+Variance: 0.367
+John
+77.0,73.4,69.8
+Variance: 0.370
+John
+78.8,73.4,69.8
+http://198.211.109.9:8000/SafeHomeDatabase/setTemp/?id=7&temp=78.8%2C73.4%2C69.8
+Status Code: 200
